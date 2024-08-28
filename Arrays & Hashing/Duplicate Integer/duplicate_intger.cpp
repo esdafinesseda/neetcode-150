@@ -5,11 +5,11 @@ using std::unordered_set, std::vector;
 
 /*
 Approach:
-- Create set to store seen value. 
-- Loop through each element in nums. 
+1. Create set to store seen value. 
+2. Loop through each element in nums. 
     - If seen return true
     - Insert into seen
-- False otherwise
+3. False otherwise
 
 Time Complexity: 
 - O(n) for loop
